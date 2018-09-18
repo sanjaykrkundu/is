@@ -11,9 +11,11 @@ import lombok.ToString;
 @Setter
 @ToString
 @Entity
-public class Designation {
+public class TestCase {
 	@Id
-	int id;
-	String designation;
-
+	private int id;
+	private String input;
+	private String output;
+	private boolean defaultTestcase;
+	
 }

@@ -1,19 +1,18 @@
 package io.github.sanjaykrkundu.is.model;
 
+import java.util.List;
+
 import javax.persistence.Entity;
-import javax.persistence.Id;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+@Entity
 @Getter
 @Setter
 @ToString
-@Entity
-public class Designation {
-	@Id
-	int id;
-	String designation;
-
+public class CodingChallenge extends ExamElement {
+	
+	List<ProgrammingQuestion> questions;
 }
