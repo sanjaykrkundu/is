@@ -3,7 +3,7 @@ package io.github.sanjaykrkundu.is.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
+//@Entity
 public class ExamElement {
 	@Id
 	int id;

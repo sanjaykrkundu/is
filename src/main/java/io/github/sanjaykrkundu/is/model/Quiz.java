@@ -12,7 +12,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-@Entity
+//@Entity
 public class Quiz extends ExamElement{
 	
 	Technology technology;

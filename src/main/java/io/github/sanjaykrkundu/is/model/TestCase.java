@@ -10,7 +10,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-@Entity
+//@Entity
 public class TestCase {
 	@Id
 	private int id;
